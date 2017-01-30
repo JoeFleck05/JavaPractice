@@ -19,6 +19,10 @@ public class HelloWorldCode {
         }else{
             System.out.println(intA + " less than " + intB);
         }
-        System.out.println("HelloWorldDone");   
+        DoneOfWorld();
+    }
+    
+    public void DoneOfWorld(){
+        System.out.println("HelloWorldDone");
     }
 }
