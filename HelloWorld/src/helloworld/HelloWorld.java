@@ -16,15 +16,8 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("HelloWorld");
-        Integer intA = 10;
-        Integer intB = 12;
-        if(intA > intB){
-            System.out.println(intA + " greater than " + intB);
-        }else{
-            System.out.println(intA + " less than " + intB);
-        }
-        System.out.println("HelloWorldDone");
+        HelloWorldCode h = new HelloWorldCode();
+        h.StartOfWorld();
     }
     
 }
