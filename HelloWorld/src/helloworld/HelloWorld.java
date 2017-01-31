@@ -16,8 +16,20 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int n = 10;
+        String[] peanuts = new String[5];
+        peanuts[0] = "cashew";
+        peanuts[1] = "walnuts";
+        peanuts[2] = "virginia";
+        peanuts[3] = "runner";
+        peanuts[4] = "spanish";
+        
         HelloWorldCode h = new HelloWorldCode();
+        h.BeginWorld();
         h.StartOfWorld();
+        h.LoopAround(n);
+        h.arrayLoop(peanuts);
+        h.DoneOfWorld();
     }
     
 }
