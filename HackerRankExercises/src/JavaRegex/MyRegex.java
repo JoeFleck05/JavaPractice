@@ -50,11 +50,10 @@ public class MyRegex {
 		
 		boolean returnValue = false;
 		
-		String zeroTo255 = "(\\d{1,2}|(0|1)\\d{2}|2[0-4]\\d|25[0-5])";
-		String pattern1 = zeroTo255 + "." + zeroTo255 + "." + zeroTo255 + "." + zeroTo255;
 		
+		String reg = AnotherMyRegex();
 		
-		if(pattern.matches(pattern1)){
+		if(pattern.matches(reg)){
 			returnValue = true;
 		} else {
 			returnValue = false;
@@ -62,6 +61,12 @@ public class MyRegex {
 		
 		return returnValue;
 		
+	}
+	
+	private String AnotherMyRegex(){
+		String zeroTo255 = "(\\d{1,2}|(0|1)\\d{2}|2[0-4]\\d|25[0-5])";
+		String pattern = zeroTo255 + "." + zeroTo255 + "." + zeroTo255 + "." + zeroTo255;
+		return pattern;	
 	}
 
 }

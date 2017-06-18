@@ -8,7 +8,7 @@ public class MyRegexTest {
 
 	MyRegex myRegex = new MyRegex();
 	
-	private final String S_1 = "000.12.12.034";
+	private final String S_1 = "021.12.12.034";
 	private final String S_2 = "121.234.12.12";
 	private final String S_3 = "23.45.12.56";
 	private final String S_4 = "00.12.123.123123.123";
