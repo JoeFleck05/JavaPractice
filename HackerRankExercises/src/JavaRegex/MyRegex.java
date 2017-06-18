@@ -50,9 +50,15 @@ public class MyRegex {
 		
 		boolean returnValue = false;
 		
-//		if(pattern.matches()){
-//			returnValue = true;
-//		}
+		String zeroTo255 = "(\\d{1,2}|(0|1)\\d{2}|2[0-4]\\d|25[0-5])";
+		String pattern1 = zeroTo255 + "." + zeroTo255 + "." + zeroTo255 + "." + zeroTo255;
+		
+		
+		if(pattern.matches(pattern1)){
+			returnValue = true;
+		} else {
+			returnValue = false;
+		}
 		
 		return returnValue;
 		
