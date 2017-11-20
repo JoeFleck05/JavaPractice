@@ -1,0 +1,17 @@
+package GetSetters;
+
+public class BicycleRides {
+	
+	public static void main(String[] args){
+		String make = "Trek";
+		
+		Bicycles bicycles = new Bicycles(null, null);
+		
+		
+		bicycles.setMake(make);
+		bicycles.getMake();
+		
+		
+	}
+
+}

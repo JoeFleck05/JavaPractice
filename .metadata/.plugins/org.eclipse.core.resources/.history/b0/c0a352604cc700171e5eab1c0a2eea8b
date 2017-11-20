@@ -1,0 +1,13 @@
+package GetSetters;
+
+public class Bicycles {
+	
+	public static String model() {
+		return null;
+	}
+	
+	public static String make() {
+		return null;
+	}
+
+}

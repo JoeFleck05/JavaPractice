@@ -1,0 +1,11 @@
+package GetSetters;
+
+public class BicycleRides {
+	
+	public static void main(String[] args){
+		Bicycles bicycles = new Bicycles(null, null);
+		
+		bicycles.getMake();
+	}
+
+}

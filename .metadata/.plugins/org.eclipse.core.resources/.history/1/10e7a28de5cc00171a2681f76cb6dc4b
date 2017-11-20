@@ -1,0 +1,29 @@
+package GetSetters;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class BicyclesTest {
+
+	Bicycles bicycles = new Bicycles(null, null, null, null, null);
+	private static String NUMBER_OF_GEARS = "10";
+	private static String EXPECTED_NUMBER_OF_GEARS = "10";
+	private static String FRAME_MATERIAL = "carbon";
+	private static String EXPECTED_FRAME_MATERIAL = "carbon";
+	
+	@Before
+	public void beforeTests(){
+		bicycles.setGears(NUMBER_OF_GEARS);
+		bicycles.setFrameMaterial(FRAME_MATERIAL);
+	}
+	
+	
+	@Test
+	public void gearTests() { assertEquals(EXPECTED_NUMBER_OF_GEARS,bicycles.getGears()); }
+	
+	@Test
+	public void frameMaterialTest(){ assertEquals(EXPECTED_FRAME_MATERIAL,bicycles.getFrameMaterial()); }
+
+}

@@ -1,0 +1,26 @@
+package GetSetters;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BicyclesTest {
+
+	Bicycles bicycles = new Bicycles(null, null, null, null, null);
+	private static String NUMBER_OF_GEARS = "10";
+	@Test
+	public void gearTests() {
+		String gearNumber = "10";
+		bicycles.setGears(gearNumber);
+		assertEquals(gearNumber,bicycles.getGears());
+	}
+	
+	@Test
+	public void frameMaterialTest(){
+		String frameMaterial = "carbon";
+		bicycles.setFrameMaterial(frameMaterial);
+		String frameTest = bicycles.getFrameMaterial();
+		assertEquals(frameMaterial,frameTest);		
+	}
+
+}

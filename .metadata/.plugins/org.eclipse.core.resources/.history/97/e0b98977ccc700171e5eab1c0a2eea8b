@@ -1,0 +1,28 @@
+package GetSetters;
+
+public class BicycleRides {
+	
+	public static void main(String[] args){
+		
+		String roadBikeMake = "Trek";
+		String roadBikeModel = "Edmonda S4";
+		
+		String mtbMake = "Rocky Mountain";
+		String mtbModel = "Thunderbolt 730";
+		String gears = "18";
+		String frameMaterial = "aluminum";
+		String mtbFrameType = "Suspension";
+		
+		Bicycles bicycles = new Bicycles(null, null, null, null, null);
+		
+		bicycles.setModel(roadBikeModel);
+		bicycles.setMake(roadBikeMake);
+		System.out.println("My Road bike is " + bicycles.getMake() + " " + bicycles.getModel() +".");
+		
+		bicycles.setModel(mtbModel);
+		bicycles.setMake(mtbMake);
+		System.out.println("My mountain bike is " + bicycles.getMake() + " " + bicycles.getModel() +".");
+		
+	}
+
+}

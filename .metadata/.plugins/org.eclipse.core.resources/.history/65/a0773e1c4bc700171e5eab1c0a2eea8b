@@ -1,0 +1,9 @@
+package GetSetters;
+
+public class BicycleModel {
+	
+	public static void main(String[] args){
+		
+	}
+
+}
