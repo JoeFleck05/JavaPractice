@@ -1,0 +1,32 @@
+package stringCalculaterTwo;
+
+public class StringCalculater {
+
+	public int add(String s) {
+		int rtnNum = 0;
+		int tempNum = 0;
+		String tempStr = delimiterString(s);
+		String[] sArr = tempStr.split(",|\n");
+		
+		for(String sa : sArr) {
+			tempNum += Integer.parseInt(sa);
+		}
+		rtnNum = tempNum;
+		return rtnNum;
+	}
+	
+	public String delimiterString(String s) {
+		String rtnStr = "";
+		int index = 0;
+		String tempString = "";
+		String indexLength = "";
+		if(s.contains("//")){
+			index = s.indexOf("//", 0);
+			indexLength = s.indexOf(index);
+		}
+		tempString = s.replace("//;", "");
+		tempString = tempString.replaceAll(";", ",");
+		rtnStr = tempString;
+		return rtnStr;
+	}
+}

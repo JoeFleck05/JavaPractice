@@ -1,0 +1,35 @@
+package stringCalculaterTwo;
+
+public class StringCalculater {
+
+	public int add(String s) {
+		int rtnNum = 0;
+		int tempNum = 0;
+		String delimiterValue = delimiterString(s);
+		if(!delimiterValue.isEmpty()) {
+			String[] sArr = delimiterValue.split(delimiterValue+"|\n");	
+		} else {
+			String[] sArr = delimiterValue.split(",|\n");
+		}
+		
+		
+		for(String sa : sArr) {
+			tempNum += Integer.parseInt(sa);
+		}
+		rtnNum = tempNum;
+		return rtnNum;
+	}
+	
+	public String delimiterString(String s) {
+		String rtnStr = "";
+		String delimiterString = "//";
+		int delimiterLength = delimiterString.length();
+		if(s.contains(delimiterString)){
+			String indexString = s.substring(0, delimiterLength + 1);
+			System.out.println(indexString.charAt(delimiterLength));
+			rtnStr = Character.toString(indexString.charAt(delimiterLength));
+		}
+		
+		return rtnStr;
+	}
+}

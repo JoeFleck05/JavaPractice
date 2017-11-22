@@ -1,0 +1,23 @@
+package stringCalculaterTwo;
+
+public class StringCalculater {
+
+	public int add(String s) {
+		int rtnNum = 0;
+		int tempNum = 0;
+		String tempStr = "";
+		String[] sArr = tempStr.split(",|\n");
+		
+		for(String sa : sArr) {
+			tempNum += Integer.parseInt(sa);
+		}
+		 rtnNum = tempNum;
+		return rtnNum;
+	}
+	
+	public String delimiterString(String s) {
+		String rtnStr = "";
+		
+		return rtnStr;
+	}
+}

@@ -1,0 +1,18 @@
+package stringCalculaterTwo;
+
+public class StringCalculater {
+
+	public int add(String s) {
+		int rtnNum = 0;
+		int tempNum = 0;
+		String tempStr = "";
+		tempStr = s.replace("//;", ",");
+		String[] sArr = tempStr.split(",|\n");
+		
+		for(String sa : sArr) {
+			tempNum += Integer.parseInt(sa);
+		}
+		 rtnNum = tempNum;
+		return rtnNum;
+	}
+}

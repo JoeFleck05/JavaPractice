@@ -1,0 +1,16 @@
+package stringCalculatorThree;
+
+public class StringCalculator {
+
+	public int add(String value) {
+		int rtnNum;
+		int tempNum;
+		String[] strArr = value.split(",");
+		
+		for(String s : strArr) {
+			tempNum += Integer.parseInt(s); 
+		}
+		rtnNum = tempNum;
+		return rtnNum;
+	}
+}

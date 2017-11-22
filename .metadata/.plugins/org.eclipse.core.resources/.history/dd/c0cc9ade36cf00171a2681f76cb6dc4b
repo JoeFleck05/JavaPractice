@@ -1,0 +1,10 @@
+package stringCalculatorThree;
+
+public class StringCalculator {
+
+	public int add(String value) {
+		int rtnNum;
+		rtnNum = Integer.parseInt(value);
+		return rtnNum;
+	}
+}

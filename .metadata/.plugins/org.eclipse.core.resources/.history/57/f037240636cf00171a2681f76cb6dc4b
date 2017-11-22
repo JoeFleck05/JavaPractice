@@ -1,0 +1,15 @@
+package stringCalculatorThree;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StringCalculatorTest {
+
+	StringCalculator stringCalc = new StringCalculator();
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,17 @@
+package stringCalculaterTwo;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StringCalculatorTest {
+	StringCalculater strCalc = new StringCalculater();
+	
+	private static String STRING_ONE = "0";
+	private static int EXECTED_ZERO = 0;
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
