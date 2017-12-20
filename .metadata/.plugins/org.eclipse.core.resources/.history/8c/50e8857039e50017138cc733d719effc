@@ -1,0 +1,18 @@
+package exerciseOneArrayManipulationTwo;
+
+import java.util.Arrays;
+
+public class ExerciseOne {
+	
+	public int[] intArrayDesc(int[] nArray, int topN) {
+		int[] newOrder = null;
+		
+		Arrays.sort(nArray);
+				
+		return newOrder;		
+	}
+
+	private int[] intArrayReOrder(int[] n, int topN){
+		int[] newOrder = new int[n.length];
+	}
+}
