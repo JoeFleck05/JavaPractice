@@ -1,8 +1,0 @@
-package stringCalculatorThree;
-
-public class StringCalculator {
-
-	public int add(String value) {
-		
-	}
-}

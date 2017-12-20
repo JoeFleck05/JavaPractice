@@ -1,0 +1,14 @@
+package exerciseOneArrayManipulation;
+
+import java.util.Arrays;
+
+public class AttemptOne {
+
+	public int[] descendingArray(int[] n) {
+		int[] revisedArray = null;
+		
+		Arrays.sort(n);
+		
+		return n;
+	}
+}

@@ -1,9 +1,0 @@
-package stringCalculaterTwo;
-
-public class StringCalculater {
-
-	public int add(String s) {
-		int rtnNum = 0;
-		return rtnNum;
-	}
-}

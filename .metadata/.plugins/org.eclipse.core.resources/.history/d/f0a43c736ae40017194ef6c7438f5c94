@@ -1,0 +1,10 @@
+package exerciseOneArrayManipulation;
+
+public class AttemptOne {
+
+	public int[] descendingArray(int[] n) {
+		int[] revisedArray = null;
+		
+		return revisedArray;
+	}
+}

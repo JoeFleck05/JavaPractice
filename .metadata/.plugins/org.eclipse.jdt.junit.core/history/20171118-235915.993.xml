@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="BicyclesTest" project="HackerRankExercises" tests="5" started="5" failures="0" errors="0" ignored="0">
-  <testsuite name="GetSetters.BicyclesTest" time="0.0">
-    <testcase name="modelTest" classname="GetSetters.BicyclesTest" time="0.0"/>
-    <testcase name="mtbFrameTypeTest" classname="GetSetters.BicyclesTest" time="0.0"/>
-    <testcase name="makeTest" classname="GetSetters.BicyclesTest" time="0.0"/>
-    <testcase name="frameMaterialTest" classname="GetSetters.BicyclesTest" time="0.0"/>
-    <testcase name="gearTests" classname="GetSetters.BicyclesTest" time="0.0"/>
-  </testsuite>
-</testrun>
